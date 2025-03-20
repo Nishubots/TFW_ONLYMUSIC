@@ -1,5 +1,5 @@
 {
-    "name": "⛦ 𝐁𝐫𝐚𝐧𝐝𝐫𝐝 𝐗 𝐌𝐮𝐬𝐢𝐜 ⛦",
+    "name": "⛦ 𝐓𝐅𝐖 𝐗 𝐌𝐮𝐬𝐢𝐜 ⛦",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
     "logo": "https://te.legra.ph/file/62fa7c81c56c1ae31c844.jpg",
     "keywords": [
@@ -54,6 +54,11 @@
       },
       "LOGGER_ID": {
         "description": "Your Log Group ID, add your bot and promote as an admin with full rights!. Don't Add Channel's ID.",
+        "value": "",
+        "required": true
+      },
+      "BOT_NAME": {
+        "description": "ENTER THE BOT NAME 'naksh x music' then enter naksh only",
         "value": "",
         "required": true
       }
