@@ -1,4 +1,3 @@
-
 import random
 import string
 
@@ -8,7 +7,7 @@ from pytgcalls.exceptions import NoActiveGroupCall
 
 import config
 from TFWMUSIC import Apple, Resso, SoundCloud, Spotify, Telegram, YouTube, app
-from TFWMUSIC.core.call import Aviax
+from TFWMUSIC.core.call import  Hotty
 from TFWMUSIC.utils import seconds_to_min, time_to_seconds
 from TFWMUSIC.utils.channelplay import get_channeplayCB
 from TFWMUSIC.utils.decorators.language import languageCB
@@ -292,7 +291,7 @@ async def play_commnd(
             return await mystic.delete()
         else:
             try:
-                await Aviax.stream_call(url)
+                await Hotty.stream_call(url)
             except NoActiveGroupCall:
                 await mystic.edit_text(_["black_9"])
                 return await app.send_message(
